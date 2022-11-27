@@ -24,7 +24,6 @@ body{
 /* header */
 header{
     background-image:linear-gradient(135deg,rgb(0, 56, 43,0.53),rgb(56, 0, 10,0.73)), url(../imagenes/fondoHeaderRe.jpg);  
-    /* background: url('../imagenes/fondoHeader.jpg') ,linear-gradient(135deg, rgba(0, 56, 43, 0.463),rgba(0, 56, 43, 0.118),rgba(56, 0, 10, 0.107),rgba(56, 0, 10, 0.512) );  */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -146,7 +145,7 @@ header .container_info .logo h2{
     border-radius: 5px;
     min-width: 230px;
     position: relative;
-    
+    height: 360px;
     overflow: hidden;
    
 
@@ -173,10 +172,11 @@ header .container_info .logo h2{
     font-size: 22px;
     
 }
+
 .main .container_works .card .about_work{
 
     position: absolute;
-    width: 230px;
+    width: 100%;
     height: 400px;
     background: rgba(10, 135, 106, 0.724);
     top: 410px;
@@ -301,7 +301,7 @@ header .container_info .logo h2{
     color: #caccd1;
 }
 .title_Section{
-
+    text-transform: uppercase;
     font-size: 36px;
     color: #2E8C6A;
     font-weight: 400;
@@ -390,7 +390,13 @@ footer .contact_social a.gh:hover {
 
 
 
-/* responsive */
+/*
+------------------------------------------------------------
+
+responsive
+
+--------------------------------------------------------
+*/
 
 @media screen and (max-width : 600px){
     
@@ -471,13 +477,7 @@ footer .contact_social a.gh:hover {
     .main .container_works .card{
         margin: 20px 10px;
         width: 45%;
-        
-       
-    
     }
-    
-   
-   
     /* Caroussel technologies */
     
     .main .tecs {
