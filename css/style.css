@@ -184,7 +184,7 @@ header .container_info .logo h2{
     
 }
 .main .container_works .card .p_about_work, .a_card:active, .a_card:visited{
-    color: #323131;
+    color: white;
 }
 
 .main .container_works .card:hover .about_work{
@@ -207,7 +207,7 @@ header .container_info .logo h2{
 .main .container_works .card .about_work .p_about_work{
 
     font-weight: 600;
-    color: #323131;
+    color: white !important;
     padding: 20px 15px;
     text-align: justify;
     margin-top: 15px;
